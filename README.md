@@ -1,4 +1,4 @@
-# Refining the PAS of gene annotation and quantifying based on outputs of IsoQuant
+# Refining the PAS of gene annotation and expression quantification based on outputs of IsoQuant
 
 ## Requirements
 Data preparing:  
