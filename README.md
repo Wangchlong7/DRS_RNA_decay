@@ -1,4 +1,4 @@
-# Refining the PAS of gene annotation and expression quantification based on outputs of IsoQuant
+# Refining the polyadenylation site (PAS) of transcripts and expression quantification based on outputs of IsoQuant
 
 ## Requirements
 Data preparing:  
@@ -68,7 +68,7 @@ ARGIND==2 {
 sample_name.extended_annotation.bed12 \
 > sample_name.extended_annotation.bed
 ```
-3. Refine PAS site
+3. Refine PAS
 ```
 python add_pas_from_isoquant.py \
 --annotation_bed sample_name.extended_annotation.bed \
